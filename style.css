@@ -1,0 +1,133 @@
+h1 {
+    color: rgb(209, 214, 243);
+    font-family:serif;
+    border: outset;
+    font-style: italic;
+    border-color: rgb(163, 133, 211);
+    margin: 37px;
+    padding: 23px;
+
+}
+
+* {
+    /*border:dotted;
+    border-color: palevioletred; */
+    background-color: rgb(2, 0, 10);
+}
+
+.header {
+    background-color: rgb(181, 224, 248);
+    display: flex;
+    justify-content: space-between;
+    border: outset;
+    border-color: rgb(251, 251, 253);
+}
+
+h3 {
+    color: rgb(248, 247, 253);
+    border: outset;
+    border-color: aqua;
+    background-color: cornflowerblue;
+    padding-left: 530px;
+}
+
+
+
+p {
+    /* color:darkolivegreen;
+    background-color: palegoldenrod;*/
+    border: outset;
+    text-align: center;
+    color: rgb(193, 216, 238);
+    font-style: oblique;
+}
+
+/* div{
+    background-color: rgb(245, 168, 178);
+    border: groove;
+} */
+/*a{
+    background-color: rgb(140, 189, 146);
+    border: currentColor;
+}*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: outset; */
+    /* border-color: rgb(187, 176, 235); */
+    border-width: thick;
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+.base {
+    border: outset; 
+     border-color: rgb(75, 20, 126); 
+     background-color: rgb(157, 195, 226);
+    color: rgb(75, 19, 128);
+    font-style: italic;
+
+    text-align: center;
+}
+
+.menu {
+    border: outset;
+    background-color: rgb(42, 94, 122);
+    margin: 37px;
+    padding: 34px;
+}
+
+/* a {
+     background-color: aliceblue; 
+    border: outset;
+    border-color: rgb(177, 177, 235);
+} */
+body{
+    background-color: rgb(0,0,0);
+}
+
+a:link{
+    color:rgb(158, 142, 228);
+}
+
+a:visited{
+    color: rgb(78, 53, 187);
+}
+
+h2{
+    color: rgb(248, 247, 253);
+    border: outset;
+    border-color: rgb(155, 195, 241);
+    background-color: rgb(1, 44, 124);
+    padding-left: 505px;  
+}
+
+  .item{
+     position: relative;
+     margin: 20px;
+
+}  
+.item p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
